@@ -12,3 +12,9 @@ def polya(n):
 	for x in range(1, n):
 		(p,q) = append(p,q);
 	print(ratio(p,q));
+	
+def polyac():
+	(p,q) = (1,1);
+	while True:
+		(p,q) = append(p,q);
+		print(ratio(p,q));
